@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "pylint-quacking"
-version = "0.1.1"
+version = "0.1.2"
 description = "Ban annotations. Ducks rule!"
 readme = "README.md"
 authors = ["Pete Wildsmith <pete@weargoggles.co.uk>"]
 license = "MIT"
+homepage = "https://github.com/weargoggles/pylint-quacking"
 
 [tool.poetry.dependencies]
 python = "^3.7"
