@@ -64,7 +64,3 @@ class Quacking(BaseChecker):
             self.add_message("no-type-hints", node=node.returns, args=("function signatures",))
 
     visit_asyncfunctiondef = visit_functiondef
-
-
-def register(linter):
-    linter.register_checker(Quacking(linter))
