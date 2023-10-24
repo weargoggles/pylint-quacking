@@ -1,6 +1,6 @@
 import astroid
 import pytest
-import quacking
+from pylint_quacking import quacking
 from pylint.testutils import UnittestLinter, Message
 from pylint.interfaces import UNDEFINED
 
